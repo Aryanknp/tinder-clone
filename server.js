@@ -6,7 +6,7 @@ import Cards from './dbCards.js'
 
 // App Config
 const app = express();
-const port = process.env.port || 8001
+const port = process.env.PORT || 8001
 
 const connection_url = `mongodb://admin:aryanarjun@cluster0-shard-00-00.7vrlv.mongodb.net:27017,cluster0-shard-00-01.7vrlv.mongodb.net:27017,cluster0-shard-00-02.7vrlv.mongodb.net:27017/tinderdb?ssl=true&replicaSet=atlas-p4781z-shard-0&authSource=admin&retryWrites=true&w=majority`
 //Middlewares
